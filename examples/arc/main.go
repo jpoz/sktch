@@ -39,8 +39,8 @@ func main() {
 
 		for j := 0; j < 39; j++ {
 			startAngle := rand.Float64() * 360.0
-			endAngle := startAngle + (rand.Float64() * (360.0 - startAngle))
-			endAngle = startAngle + 15
+			// endAngle := startAngle + (rand.Float64() * (360.0 - startAngle))
+			endAngle := startAngle + 15
 			r := rand.Float64()*float64(maxR) + 5
 
 			sx := r * math.Sin(startAngle)
